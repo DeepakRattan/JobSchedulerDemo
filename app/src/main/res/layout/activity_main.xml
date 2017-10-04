@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical"
+    tools:context="com.example.deepakrattan.jobschedulerdemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reuired_network_type"
+        android:textSize="@dimen/text_size_20" />
+
+    <RadioGroup
+        android:id="@+id/rdGrpNetworkType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdBtnDefaultNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_network" />
+
+        <RadioButton
+            android:id="@+id/rdBtnAnyNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/any_network" />
+
+        <RadioButton
+            android:id="@+id/rdBtnWiFiNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wi_fi_network" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/required"
+        android:textSize="@dimen/text_size_20"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Switch
+            android:id="@+id/switchDeviceIdle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_idle" />
+
+        <Switch
+            android:id="@+id/switchDeviceCharging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/device_charging" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnScheduleJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_job"
+        android:textSize="@dimen/text_size_20" />
+
+    <Button
+        android:id="@+id/btnCancelJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_job"
+        android:textSize="@dimen/text_size_20" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JobSchedulerDemo</string>
+    <string name="reuired_network_type">Required Network Type</string>
+    <string name="default_network">Default</string>
+    <string name="any_network">Any</string>
+    <string name="wi_fi_network">WiFi</string>
+    <string name="notification_title">Job Service</string>
+    <string name="notification_content">Your job is running!</string>
+    <string name="schedule_job">Schedule Job</string>
+    <string name="cancel_job">Cancel Job</string>
+    <string name="job_scheduled">Job Scheduled</string>
+    <string name="required">Required:</string>
+    <string name="device_idle">Device Idle</string>
+    <string name="device_charging">Device Charging</string>
+
+</resources>
